@@ -36,11 +36,11 @@ class App extends React.Component {
         <Header currentUser={this.state.currentUser}/>
         <Switch>
           <Route exact path='/' component={HomePage}/>
-          <Route path='/shop' component={ShopPage}/>   
-          <Route path='/login' component={LoginAndRegister}/>
+          <Route path='/parduotuve' component={ShopPage}/>   
+          <Route path='/prisijungti' component={LoginAndRegister}/>
         </Switch>
       </div>
-    );
+    );  
   } 
 }
 
